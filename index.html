@@ -15,6 +15,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap" rel="stylesheet">
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -46,8 +51,8 @@
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-3">
-                    <a class="text-body px-2" href="tel:+0123456789"><i class="fa fa-phone-alt text-primary me-2"></i>+91 77 990 45557, +916302415865</a>
-                    <a class="text-body px-2" href="mailto:info@example.com"><i class="fa fa-envelope-open text-primary me-2"></i>support@ipdefensesolutions.com</a>
+                    <a class="text-body px-2" href="tel:+917799045557"><i class="fa fa-phone-alt text-primary me-2"></i>+917799045557, +916302415865</a>
+                    <a class="text-body px-2" href="support@ipdefensesolutions.com"><i class="fa fa-envelope-open text-primary me-2"></i>support@ipdefensesolutions.com</a>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -65,6 +70,8 @@
         </div>
     </div>
     <!-- Topbar End -->
+	 <!-- Floating WhatsApp Icon -->
+	 
 
 
     <!-- Navbar Start -->
@@ -597,6 +604,32 @@
         </div>
     </div>
     <!-- Team End -->
+	<!-- Brand Partners Section -->
+<section class="brand-partners" style="padding: 40px 20px; background-color: #f9f9f9;">
+  <h2 style="text-align: center; font-size: 2rem; margin-bottom: 20px;">Our Brand Partners</h2>
+  <div class="swiper brandSwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="brand-logo-wrapper">
+          <img src="https://via.placeholder.com/150x80?text=Brand+1" alt="Brand 1" />
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="brand-logo-wrapper">
+          <img src="https://via.placeholder.com/150x80?text=Brand+2" alt="Brand 2" />
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="brand-logo-wrapper">
+          <img src="https://via.placeholder.com/150x80?text=Brand+3" alt="Brand 3" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 
     <!-- Appointment Start -->
@@ -615,7 +648,7 @@
                                 </div>
                                 <div class="ms-4">
                                     <p class="mb-2">Call Us Now</p>
-                                    <h3 class="mb-0">+917744095557, +916302415865</h3>
+                                    <h3 class="mb-0">+917799045557, +916302415865</h3>
                                 </div>
                             </div>
                         </div>
@@ -714,7 +747,7 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-light mb-4">Address</h3>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Hyderabad, Guntur, Vijayawada, Bhubaneshwar, Kolkata, Bhopal</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Hyderabad, Guntur, Vijayawada, Visakhapatanam, Bhubaneshwar, Kolkata, Bhopal</p>
                     <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+917799045557, +916302415865</p>
                     <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>support@ipdefensesolutions.com</p>
                     <div class="d-flex pt-2">
@@ -786,6 +819,33 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".brandSwiper", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 4,
+      },
+      1024: {
+        slidesPerView: 5,
+      },
+    },
+  });
+</script>
+<a href="https://wa.me/917799045557" class="whatsapp-float" target="_blank" rel="noopener">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp Chat" />
+</a>
+
 </body>
 
 </html>
