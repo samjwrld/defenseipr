@@ -587,3 +587,32 @@ h6,
 .whatsapp-float:hover {
   transform: scale(1.1);
 }
+.service-box {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-box img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.service-box h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.service-box p {
+  font-size: 0.95rem;
+  color: #555;
+}
